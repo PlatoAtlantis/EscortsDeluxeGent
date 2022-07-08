@@ -2,18 +2,16 @@ import * as React from "react";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import "./all.sass";
-import useSiteMetadata from "./SiteMetadata";
+import "../assets/all.sass";
 import { withPrefix } from "gatsby";
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata();
+const Layout = ({ children }) => {
   return (
     <div>
       <Helmet>
         <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>"123"</title>
+        <meta name="description" content="123" />
 
         <link
           rel="apple-touch-icon"
@@ -41,7 +39,7 @@ const TemplateWrapper = ({ children }) => {
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
+        <meta property="og:title" content="123" />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
@@ -55,4 +53,4 @@ const TemplateWrapper = ({ children }) => {
   );
 };
 
-export default TemplateWrapper;
+export default Layout;

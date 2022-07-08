@@ -1,0 +1,361 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables"
+
+// Config vars
+$link: orange
+$black: #2b2523
+$green: #25d366
+$darkred: #5F021F
+$gold: #ffd700
+$warning: $gold
+$primary-dark: $darkred
+$primary: #6f1b35
+$primary: $primary
+$white: rgb(165, 144, 126, 0.1555)
+$whitedark: rgb(165, 144, 126, 0.2)
+$body-background-color: $whitedark
+$body-color: $whitedark
+
+@font-face
+  font-family: 'Century'
+  src: url('/fonts/CenturyGothicRegular.ttf') format('truetype')
+  font-size: 2em
+
+@font-face
+  font-family: 'Cochin'
+  src: url('/fonts/NicholasCochin.ttf') format('truetype')
+
+h1, h2, h3
+  font-family: 'Century'!important
+
+p, h4
+  font-family: 'Cochin'!important
+
+
+.navbar-item
+  font-family: 'Century'!important
+
+
+body
+  background-color: $whitedark
+
+html
+  background-color: $whitedark
+
+$white: $white
+$whatsappgreen: #25D366
+
+.has-background-white-dark
+  $background-color: $whitedark
+  background: $whitedark
+
+.padding1
+  padding: 3em
+
+.has-background-primary-darker
+  background-color: #2A0800!important
+
+.has-background-primary-medium
+  background-color: rgb(42,8,0, 0.5)!important
+
+.has-background-primary-dark
+  background-color: #260700
+
+.nomargintop
+  margin-top: 0!important
+
+.goldtext
+  color: $gold
+
+.facebook, .instagram, .whatsapp
+  color: $black
+  font-size: 1.5em
+  &:hover
+    color: $gold
+
+.nomarginbottom
+  margin-bottom: 0!important
+  padding-bottom: 0!important
+
+.marginbottom2
+  margin-bottom: 2em
+
+.navbar .navbar-menu
+  box-shadow: none !important
+
+.navbar
+  height: 4em
+
+
+.content .taglist
+  list-style: none
+  margin-bottom: 0
+  margin-left: 0
+  margin-right: 1.5rem
+  margin-top: 1.5rem
+  display: flex
+  flex-wrap: wrap
+  justify-content: left
+  align-items: center
+  li
+    padding: 0 2rem 1rem 0
+    margin-bottom: 1.5rem
+    margin-top: 0
+
+// Helper Classes
+.full-width-image-container
+  width: 100vw
+  height: 400px
+  position: relative
+  left: 50%
+  right: 50%
+  margin: 2em -50vw
+  background-size: cover
+  background-position: bottom
+  display: flex
+  justify-content: center
+  align-items: center
+
+
+
+.chickcontainer
+  width: 333px
+  height: 333px
+  background-size: cover
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-right: auto
+  margin-left: auto
+
+
+
+
+
+
+.full-width-image
+    width: 100vw
+    height: 400px
+    background-size: cover
+    background-position: bottom
+    display: flex
+    justify-content: center
+    align-items: center
+
+.btn
+    display: inline-block
+    padding: 12px 16px 10px
+    font-size: 18px
+    font-size: 1rem
+    line-height: 1.25
+    background-color: #fff
+    border-radius: .25rem
+    text-decoration: none
+    font-weight: 700
+    color: #CC3700
+    text-align: center
+    -webkit-box-shadow: inset 0 0 0 2px #CC3700
+    box-shadow: inset 0 0 0 2px #f40
+    -webkit-transition: all .15s ease
+    transition: all .15s ease
+
+.margin-top-0
+  margin-top: 0 !important
+
+.navbar-item .icon
+  color: $primary
+// Override for use of svg's from https://simpleicons.org/
+.icon svg
+  width: 1.5rem
+  height: 1.5rem
+  fill: currentColor
+.navbar-brand .navbar-item.logo
+  padding: 0 1rem
+footer.footer
+  padding: 3rem 0rem 0rem
+  background-color: transparent
+
+//Menu overrides
+$menu-item-color: $warning
+$menu-item-hover-color: $black !important
+$menu-item-hover-background-color: none!important
+$menu-item-active-color: $link
+$menu-item-active-background-color:	$link
+$navbar-item-hover-background-color: none!important
+$navbar-item-hover-color: $gold
+
+
+.menu-label
+  font-size: 1em !important
+  text-align: left
+.menu-list
+  list-style: none !important
+  text-align: left
+.social
+  padding: 2em
+.social a
+    padding: .5em .5em .3em .5em
+    border-radius: 1em
+    margin: .5em
+    width: 1em
+    height: 1em
+    vertical-align: middle
+    display: inline
+    color: $gold
+
+.noblinkemoji
+  display: none!important
+
+.girls
+  height: 400px
+  width: 400px
+  &:hover
+    background-color: red!important
+
+
+.chickcontainer
+  &:hover
+    background: opacity(red)
+
+// Animate the size, outside
+
+$pulse: $red
+$goldtransparent: rgb(255,215,0, 0.222)
+
+
+.chickcontainer
+  &:hover
+    animation: pulse 1s
+    box-shadow: 0px 2px 10px 3px $red , 0 -5px 10px -5px $warning
+    .fadename, .chickinfo, .fadenameslow
+      display: block!important
+
+
+@keyframes pulse
+  0%
+    box-shadow: 0 0 0 0 $pulse
+
+.fadename
+  display: none
+  color: $gold
+  position: relative
+  overflow: none
+  -webkit-animation: fadein 1s /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1s /* Firefox < 16 */
+  -ms-animation: fadein 1s /* Internet Explorer */
+  -o-animation: fadein 1s /* Opera < 12.1 */
+  animation: fadein 1s
+
+.is2
+  font-size: 1.5em
+
+.whatsappgreen
+  color: $whatsappgreen
+
+.fadenameslow
+  display: none
+  color: $gold
+  position: relative
+  overflow: none
+  -webkit-animation: fadein 2s /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s /* Firefox < 16 */
+  -ms-animation: fadein 2s /* Internet Explorer */
+  -o-animation: fadein 2s /* Opera < 12.1 */
+  animation: fadein 2s
+
+@keyframes fadein
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+@keyframes fadein
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+
+/* Firefox < 16 */
+@-moz-keyframes fadein
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+
+/* Internet Explorer */
+@-ms-keyframes fadein
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+
+.infocontainer
+  margin-bottom: auto!important
+  margin-top: auto!important
+  justify-content: center!important
+  height: 75.75px!important
+  align-items: center!important
+
+.chickinfo
+  display: none
+  background-color: $primary-dark
+  color: $gold
+  position: relative
+  overflow: none
+  width: 100%
+  height: 151.5px
+  margin-bottom: 0
+  opacity: 0.588
+
+
+
+
+
+.hover12 figure img
+  opacity: 1
+  -webkit-transition: .3s ease-in-out
+  transition: .3s ease-in-out
+
+.hover12 figure
+  &:hover
+    img
+      opacity: .5
+      background: red
+
+
+// blog roll
+.blog-list-item.is-featured
+  background-color: #d6400033
+.blog-list-item header
+  display: flex
+  margin-bottom: 1em
+.blog-list-item .featured-thumbnail
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
+
+
+@import "/node_modules/bulma"
+
+
+// responsiveness
++tablet-only
+  .blog-list-item .featured-thumbnail
+    flex-basis: 50%
+
++mobile
+  .blog-list-item header
+    display: block
+  .blog-list-item .featured-thumbnail
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
