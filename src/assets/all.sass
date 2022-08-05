@@ -82,8 +82,11 @@ $whatsappgreen: #25D366
 .navbar .navbar-menu
   box-shadow: none !important
 
-.navbar
-  height: 4em
+.content
+  ul
+    margin-top: 0!important
+    margin-bottom: 0!important
+
 
 
 .content .taglist
@@ -117,7 +120,7 @@ $whatsappgreen: #25D366
 
 
 
-.chickcontainer
+.girlcontainer
   width: 333px
   height: 333px
   background-size: cover
@@ -211,8 +214,18 @@ $navbar-item-hover-color: $gold
   &:hover
     background-color: red!important
 
+.sliderimage
+  height: 60vh!important
 
-.chickcontainer
+.navbar-item
+  text-align: center
+
+.centered
+  margin-right: auto
+  margin-left: auto
+
+
+.girlcontainer
   &:hover
     background: opacity(red)
 
@@ -222,11 +235,11 @@ $pulse: $red
 $goldtransparent: rgb(255,215,0, 0.222)
 
 
-.chickcontainer
+.girlcontainer
   &:hover
     animation: pulse 1s
     box-shadow: 0px 2px 10px 3px $red , 0 -5px 10px -5px $warning
-    .fadename, .chickinfo, .fadenameslow
+    .fadename, .girlinfo, .fadenameslow
       display: block!important
 
 
@@ -306,7 +319,7 @@ $goldtransparent: rgb(255,215,0, 0.222)
   height: 75.75px!important
   align-items: center!important
 
-.chickinfo
+.girlinfo
   display: none
   background-color: $primary-dark
   color: $gold

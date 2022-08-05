@@ -45,7 +45,7 @@ const Navbar = class extends React.Component {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: "88px" }} />
+              <h2 className="has-text-weight-bold has-text-warning">DELUX</h2>
             </Link>
             {/* Hamburger menu */}
             <div
@@ -87,7 +87,7 @@ const Navbar = class extends React.Component {
                 rel="noopener noreferrer"
               >
                 <span className="icon">
-                  <FontAwesomeIcon icon={faWhatsapp} className="whatsappgreen"/>
+                  <FontAwesomeIcon icon={faWhatsapp} className="has-text-warning"/>
                 </span>
               </a>
             </div>
