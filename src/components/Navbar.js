@@ -82,7 +82,7 @@ const Navbar = class extends React.Component {
             <div className="navbar-end has-text-centered ">
               <a
                 className="navbar-item"
-                href="www.whatsapp.com"
+                href="https://api.whatsapp.com/send?phone=310647628532"
                 target="_blank"
                 rel="noopener noreferrer"
               >
