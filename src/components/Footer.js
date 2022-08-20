@@ -7,9 +7,13 @@ import instagram from "../img/social/instagram.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {
-  faFacebook,
-  faInstagram,
-} from "@fortawesome/fontawesome-free-brands"
+  faWhatsapp,
+} from "@fortawesome/fontawesome-free-brands";
+
+import {
+  faEnvelope,
+} from "@fortawesome/fontawesome-free-brands";
+
 
 const Footer = class extends React.Component {
   render() {
@@ -56,11 +60,15 @@ const Footer = class extends React.Component {
                 </section>
               </div>
               <div className="column is-4 social">
-                <a title="facebook" href="https://facebook.com">
-                  <FontAwesomeIcon icon={faFacebook} size="2x"/>
+                <a
+                  className="navbar-item"
+                  href="https://api.whatsapp.com/send?phone=310647628532"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >                  <FontAwesomeIcon icon={faWhatsapp} size="2x"/>
                 </a>
-                <a title="instagram" href="https://instagram.com">
-                  <FontAwesomeIcon icon={faInstagram} size="2x"/>
+                <a href ="mailto: support@venuxescorts.com">
+                  <FontAwesomeIcon icon={faEnvelope} size="2x"/>
                 </a>
               </div>
             </div>
