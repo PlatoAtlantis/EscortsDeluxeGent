@@ -1,9 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/logo.svg";
-import facebook from "../img/social/facebook.svg";
-import instagram from "../img/social/instagram.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import {
