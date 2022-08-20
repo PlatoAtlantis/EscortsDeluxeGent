@@ -9,7 +9,7 @@ import {
 
 import {
   faEnvelope,
-} from "@fortawesome/fontawesome-free-brands";
+} from "@fortawesome/free-solid-svg-icons";
 
 
 const Footer = class extends React.Component {

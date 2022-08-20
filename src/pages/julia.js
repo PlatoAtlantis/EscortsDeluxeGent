@@ -68,9 +68,6 @@ const Julia = () => {
                   Anaal
                 </div>
                 <div className="column">
-                  Squirting
-                </div>
-                <div className="column">
                   Zoenen
                 </div>
                 <div className="column">

@@ -72,9 +72,6 @@ const Fleur = () => {
                 <div className="column">
                   Zoenen
                 </div>
-                <div className="column">
-                  Dominatrix
-                </div>
               </div>
             </div>
           </div>
