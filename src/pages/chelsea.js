@@ -69,7 +69,7 @@ const Chelsea = () => {
                   Zoenen
                 </div>
                 <div className="column">
-                  Dominatrix
+                  Trio
                 </div>
               </div>
             </div>
