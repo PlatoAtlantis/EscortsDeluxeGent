@@ -10,8 +10,8 @@ const Layout = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
-        <title>"123"</title>
-        <meta name="description" content="123" />
+        <title>Deluxe Escorts</title>
+        <meta name="description" content="deluxe" />
 
         <link
           rel="apple-touch-icon"
@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content="123" />
+        <meta property="og:title" content="Deluxe" />
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
