@@ -74,13 +74,6 @@ export default class SimpleSlider extends Component {
             />
           </div>
           <div>
-            <StaticImage src="../../static/img/julia5.png" alt="natasha" className="sliderimage"
-                         objectFit="contain"
-                         placeholder="none"
-                         backgroundColor= "transparent"
-            />
-          </div>
-          <div>
             <StaticImage src="../../static/img/julia6.png" alt="natasha" className="sliderimage"
                          objectFit="contain"
                          placeholder="none"
