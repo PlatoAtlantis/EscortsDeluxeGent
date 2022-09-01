@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import logo from "../img/logo.svg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faWhatsapp,
