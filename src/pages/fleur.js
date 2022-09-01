@@ -29,7 +29,7 @@ const Fleur = () => {
               padding: "1rem",
             }}
           >
-            Roxana
+            Fleur
           </h1>
         </div>
 
@@ -71,6 +71,9 @@ const Fleur = () => {
                 </div>
                 <div className="column">
                   Zoenen
+                </div>
+                <div className="column">
+                  Trio
                 </div>
               </div>
             </div>
