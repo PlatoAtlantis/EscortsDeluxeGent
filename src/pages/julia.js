@@ -29,7 +29,7 @@ const Julia = () => {
               padding: "1rem",
             }}
           >
-            Roxana
+            Julia
           </h1>
         </div>
 
@@ -72,6 +72,9 @@ const Julia = () => {
                 </div>
                 <div className="column">
                   Dominatrix
+                </div>
+                <div className="column">
+                  Trio
                 </div>
               </div>
             </div>
