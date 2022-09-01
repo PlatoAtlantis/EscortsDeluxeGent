@@ -32,7 +32,6 @@ const Layout = ({ children }) => {
         <link
           rel="mask-icon"
           href={`${withPrefix("/")}img/tiger.jpeg`}
-          color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
 
