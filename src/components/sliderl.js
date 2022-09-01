@@ -45,14 +45,14 @@ export default class SimpleSlider extends Component {
       <div>
         <Slider {...settings}>
           <div>
-            <StaticImage src="../../static/img/lara1.png" alt="lara" className="sliderimage"
+            <StaticImage src="../../static/img/lara2.png" alt="lara" className="sliderimage"
                          objectFit="contain"
                          placeholder="none"
                          backgroundColor= "transparent"
             />
           </div>
           <div>
-            <StaticImage src="../../static/img/lara2.png" alt="lara" className="sliderimage"
+            <StaticImage src="../../static/img/lara1.png" alt="lara" className="sliderimage"
                          objectFit="contain"
                          placeholder="none"
                          backgroundColor= "transparent"
