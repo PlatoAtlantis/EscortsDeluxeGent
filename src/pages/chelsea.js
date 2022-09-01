@@ -71,6 +71,9 @@ const Chelsea = () => {
                 <div className="column">
                   Trio
                 </div>
+                <div className="column">
+                  SM
+                </div>
               </div>
             </div>
           </div>

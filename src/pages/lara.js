@@ -29,7 +29,7 @@ const Lara = () => {
               padding: "1rem",
             }}
           >
-            Kirsten
+            Lara
           </h1>
         </div>
 
@@ -69,7 +69,10 @@ const Lara = () => {
                   Zoenen
                 </div>
                 <div className="column">
-                  Dominatrix
+                  Trio
+                </div>
+                <div className="column">
+                  SM
                 </div>
               </div>
             </div>
